@@ -54,6 +54,13 @@ main{
   color: white;
   font-weight: bold;
   text-decoration: line-through;
+  transition: .4s;
+}
+.main-title .price-1:hover{
+  transition: .4s;
+  background-color: white;
+  border: 2px solid var(--purple);
+  color: var(--purple);
 }
 .main-title .price-2 {
   margin-left: 20px;
@@ -64,6 +71,13 @@ main{
   background-color: var(--purple);
   color: white;
   font-weight: bold;
+}
+
+.main-title .price-2:hover{
+  transition: .4s;
+  background-color: white;
+  border: 2px solid var(--purple);
+  color: var(--purple);
 }
 .main-photo img{
   width: 100%;
