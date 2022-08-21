@@ -2,7 +2,6 @@
   <nav>
     <router-link to="/">Home</router-link>
     <router-link to="/shop">Shop</router-link>
-
     <router-link to="/about">About</router-link>
     <router-link to="/contact">Contact</router-link>
     <router-link to="/cart"><i class="fa-solid fa-bag-shopping"></i><span class="notif">0</span></router-link>
@@ -51,5 +50,43 @@ nav a i{
   padding: 0px 7px;
   border-radius: 50px;
 }
-
+@media (max-width: 600px) {
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a, nav a i{
+    font-size: 25px;
+  }
+  .notif{
+  position: relative;
+  bottom: 10px;
+  right: 11px;
+  font-size: 17px;
+  padding: 0px 7px;
+  }
+  .fa-bars{
+    display: none;
+  }
+}
+@media (max-width: 420px){
+  nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 60vh;
+  }
+  nav a:nth-child(5){
+    margin-left: 10%;
+  }
+  nav a:nth-child(5) i{
+    font-size: 35px;
+  }
+  nav a:nth-child(5) span{
+    font-size: 25px;
+    padding: 0px 9px;
+    position: relative;
+    right: 15px;
+  }
+}
 </style>
