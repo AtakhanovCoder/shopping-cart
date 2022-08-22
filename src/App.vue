@@ -24,7 +24,7 @@
   --black-gray: #1D1D1C;
 }
 nav a{
-  font-size: 36px;
+  font-size: 30px;
   color: white;
 }
 nav{

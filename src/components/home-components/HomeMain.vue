@@ -14,7 +14,7 @@
       <button class="price-2">100$</button>
     </div>
     <div class="main-photo">
-      <img src="../assets/Sneakers/sneaker-adidas-1.jpg" alt="">
+      <img src="@/assets/Sneakers/sneaker-adidas-1.jpg" alt="">
     </div>
   </main>
 </template>
@@ -81,7 +81,7 @@ main{
 }
 .main-photo img{
   width: 100%;
-  height: 60vh;
+  height: 53vh;
   border-radius: 50%;
   border: 10px solid var(--purple);
 }

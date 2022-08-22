@@ -1,12 +1,17 @@
 <template>
   <main>
     <HomeMain/>
+    <HomeTrend/>
   </main>
 </template>
 <script>
-import HomeMain from '@/components/HomeMain.vue';
+import HomeMain from "../components/home-components/HomeMain.vue";
+import HomeTrend from "../components/home-components/HomeTrend.vue";
 export default {
-    components: { HomeMain }
+    components: { 
+      HomeMain,
+      HomeTrend
+    }
 }
 </script>
 <style>
