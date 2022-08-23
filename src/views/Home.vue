@@ -1,17 +1,23 @@
 <template>
   <main>
-    <HomeMain/>
-    <HomeTrend/>
+    <Main></Main>
+    <Trend/>
+    <Blog/>
+    <ClothesLogo/>
   </main>
 </template>
 <script>
-import HomeMain from "../components/home-components/HomeMain.vue";
-import HomeTrend from "../components/home-components/HomeTrend.vue";
+import Main from "../components/home-components/Main.vue";
+import Trend from "../components/home-components/Trend.vue";
+import ClothesLogo from "@/components/home-components/ClothesLogo.vue";
+import Blog from "../components/home-components/Blog.vue";
 export default {
-    components: { 
-      HomeMain,
-      HomeTrend
-    }
+    components: {
+    Main,
+    Trend,
+    ClothesLogo,
+    Blog
+}
 }
 </script>
 <style>

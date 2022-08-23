@@ -9,9 +9,9 @@
           <h2>Adidas Sneaker</h2>
           <h1>150$</h1>
           <div class="button-content">
-            <button>
-              <router-link to="/shop">Add to Cart</router-link>
-            </button>
+              <router-link to="/shop">
+                <button>Add to Cart</button>
+              </router-link>
           </div>
         </div>
       </div>
@@ -21,9 +21,9 @@
           <h2>Adidas Sweater</h2>
           <h1>130$</h1>
           <div class="button-content">
-            <button>
-              <router-link to="/shop">Add to Cart</router-link>
-            </button>
+            <router-link to="/shop">
+                <button>Add to Cart</button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -33,9 +33,9 @@
           <h2>Adidas T-shirt</h2>
           <h1>75$</h1>
           <div class="button-content">
-            <button>
-              <router-link to="/shop">Add to Cart</router-link>
-            </button>
+              <router-link to="/shop">
+                <button>Add to Cart</button>
+              </router-link>
           </div>
         </div>
       </div>
@@ -89,6 +89,7 @@ export default {
   color: white;
   font-weight: bold;
   transition: .4s;
+  cursor: pointer;
   }
   .product-footer button a{
     color: white;

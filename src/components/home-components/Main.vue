@@ -10,8 +10,12 @@
       stylish and unique clothes
       </h3>
       <h1>ULTRABOOST CLIMA <br>COOL1 DNA Sneaker</h1>
-      <button class="price-1">150$</button>
-      <button class="price-2">100$</button>
+      <router-link to="/shop">
+        <button class="price-1">150$</button>      
+      </router-link>
+      <router-link to="/shop">
+        <button class="price-2">100$</button>
+      </router-link>
     </div>
     <div class="main-photo">
       <img src="@/assets/Sneakers/sneaker-adidas-1.jpg" alt="">
@@ -55,6 +59,7 @@ main{
   font-weight: bold;
   text-decoration: line-through;
   transition: .4s;
+  cursor: pointer;
 }
 .main-title .price-1:hover{
   transition: .4s;
@@ -63,6 +68,7 @@ main{
   color: var(--purple);
 }
 .main-title .price-2 {
+  cursor: pointer;
   margin-left: 20px;
   width: 100px;
   height: 45px;
