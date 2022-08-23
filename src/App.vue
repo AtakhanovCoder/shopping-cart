@@ -19,6 +19,9 @@
   font-family: 'Poppins', sans-serif;
   color: #293462;
 }
+html{
+  scroll-behavior: smooth;
+}
 :root{
   --purple: #7F31FF;
   --black-gray: #1D1D1C;
