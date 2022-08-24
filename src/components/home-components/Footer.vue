@@ -11,7 +11,7 @@
       </div>
       <div class="column-2">
         <div class="links">
-          <router-link to="/home">Home</router-link>
+          <router-link to="">Home</router-link>
           <router-link to="/shop">Shop</router-link>
           <router-link to="/about">About</router-link>
           <router-link to="/contact">Contact</router-link>
@@ -128,5 +128,8 @@ export default {
   .icon-div i:hover{
     color: #fff;
     transition: .4s;
+  }
+  nav a.router-link-exact-active, nav a.router-link-exact-active i {
+    color: var(--purple);
   }
 </style>
